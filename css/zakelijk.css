@@ -1,0 +1,161 @@
+body {
+	background-color: white;
+    font-family: futuraMdBt;  
+    margin: 0 50px;
+}
+    @font-face{
+        font-family: 'futuraMdBt';
+        src: url('futura_medium_bt-webfont.woff');
+        } 
+
+    @font-face{
+        font-family: 'futuraLight';
+        src: url('futura_light_bt-webfont.woff');
+    }
+/*niet gelukt om tekst over foto's heen te laten overlappen (zoals in Axure-ontwerp), hierom ervoor gekozen de tekst naast de afbeeldingen te houden*/
+.Zakelijk {
+    display: block;
+    margin: 0px;
+    padding: 0;
+    width: 900px;
+    float: left;
+}
+
+a {
+	color: black;
+    text-decoration: underline;
+    text-decoration-color: #990033;
+}
+
+.mogelijkheden{
+	display: inline-block;
+	height: 350px;
+	margin: 0px;
+	padding: 0;
+	width: 900px;
+	vertical-align: bottom;
+}
+
+.bar{
+	display: block;
+	width: 500px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.hal{
+	display: inline-block;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.Faciliteiten{
+	display: block;
+	width: 900px;
+	margin: 0;
+	padding: 0;
+	float: left;
+    font-family: futuraLight;
+}
+
+ul {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+ul li:1{
+	color: orange;
+}
+
+.foto{
+	display: inline-block;
+	width: 500px;
+	height: 700px;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    word-spacing: 100px;
+    padding: 0px;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    font-size: 1.2em;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+ }
+ 
+nav ul li {
+    display: inline-block; 
+    padding: 0 5px;
+    vertical-align: 40px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+ 
+nav ul li a.active, a:visited, a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #990033;
+}
+
+nav .zoek{
+    display: block;
+    text-align: right;
+}
+
+h1{
+    display: block;
+    width: 900px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #990033;
+}
+
+h3{
+    text-align: center;
+}
+
+h3:first-letter{
+    color: #990033; 
+}
+
+h3.titelafwijkend{
+    margin-left: 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 50px;
+    float: left;
+
+}
+footer{
+    display: inline-block;
+    border-top: 3px solid #990033;
+    width: 100%
+    margin: 0;
+    padding: 0;
+
+} 
+footer a:link{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #990033;
+}
+.icoon{
+    float: left;
+}
+p{
+    font-family: futuraLight;
+}

@@ -1,0 +1,78 @@
+@font-face{
+    font-family: 'futuraMdBt';
+    src: url('futura_medium_bt-webfont.woff');
+} 
+
+@font-face{
+    font-family: 'futuraLight';
+    src: url('futura_light_bt-webfont.woff');
+}
+
+body {
+	background-color: white;
+	font-family: futuraMdBt, sans-serif;
+    margin: 0 50px;
+}
+header{
+	display: block;
+	width: 500px;
+	margin-left: 550px;
+}
+
+header ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.aanvraag{
+	display: inline-block;
+    margin-left: 500px;
+}
+h1{
+	text-align: center;
+}
+label{
+	display: inline-block;
+	width: 150px;
+	margin-right: auto;
+	font-family: futuraLight;
+}
+input[type=text]{
+	width: 300px;
+	height: 25px;
+	margin-left: auto;
+}
+input[type=number]{
+	width: 300px;
+	height: 25px;
+	margin-left: auto;
+}
+input[type=e-mail]{
+	width: 300px;
+	height: 25px;
+	margin-left: auto;
+}
+input[type=date]{
+	height: 25px;
+}
+textarea {
+	width: 450px;
+	height: 110px;
+}
+input[type=submit]{
+	width: 140px;
+	height: 40px;
+	border: 2px solid #990033;
+	border-radius: 5px;
+	margin-left: 155px;
+	background-color: white;
+}
+fieldset{
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	border-top: 2px solid #990033;
+}
+input{
+	font-family: futuraLight;
+}

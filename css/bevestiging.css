@@ -1,0 +1,34 @@
+@font-face{
+    font-family: 'futuraMdBt';
+    src: url('futura_medium_bt-webfont.woff');
+} 
+
+@font-face{
+    font-family: 'futuraLight';
+    src: url('futura_light_bt-webfont.woff');
+}
+
+body {
+	background-color: white;
+	font-family: futuraLight, sans-serif;
+    margin: 0 50px;
+}
+header{
+	display: block;
+	width: 500px;
+	margin-left: 550px;
+	font-family: futuraMdBt;
+}
+header ul li{
+	display: inline-block;
+	vertical-align: middle;
+	list-style: none;
+}
+#bevestiging{
+	width: 500px;
+	border-top: 2px solid #990033;
+	margin-left: 500px;
+}
+h1{
+	text-align: center;
+}

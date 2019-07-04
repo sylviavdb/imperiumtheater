@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aanvraag huren</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/aanvraag.css" />
+	<script type="text/javascript" src="js/aanvraag.js"></script>
+</head>
+<body>
+	
+	<header>
+		<ul>
+			<li><a href="Zakelijk.html"><img src="img/terugknop.png" width="70" height="50" alt="terugknop"></a></li>
+			<li><h1>Ik wil huren!</h1></li>
+			<li><a href="Imperium.html" target="_self"><img src="img/imperiumlogo.jpg" width="50" height="50" alt="logo"></a></li>
+	</ul>
+	</header>
+
+	<section class="aanvraag">
+	<form action="bevestiging.html" method="GET" name="Aanvraagform">
+		<fieldset id="persoonlijk">
+			<br />
+			<br />
+				<label for="naam">Naam:</label> 
+				<input type="text" id="naam" name="naam" placeholder="Naam"/> 
+				<span class="melding" id="meldingNaam"></span>
+				<br />
+				<label for="geboortedatum">Geboortedatum:</label>
+				<input type="date" id="geboortedatum" name="geboortedatum" placeholder="dd-mm-jj">
+				<span class="melding" id="meldingDatum"></span>
+				<br />
+				<label for="adres">Adres:</label>
+				<input type="text" id="adres" name="adres" placeholder="Adres">
+				<span class="melding" id="meldingAdres"></span>
+				<br />
+				<label for="postcode">Postcode</label>
+				<input type="text" id="postcode" name="postcode" placeholder="1234AB">
+				<span class="melding" id="meldingCode"></span>
+				<br />
+				<label for="woonplaats">Woonplaats:</label>
+				<input type="text" id="woonplaats" name="woonplaats" placeholder="Woonplaats">
+				<span class="melding" id="meldingPlaats"></span>
+				<br />
+				<label for="telefoon">Telefoonnummer:</label>
+				<input type="number" id="telefoonnummer" name="telefoon" placeholder="0612345678">
+				<span class="melding" id="meldingNummer"></span>
+				<br />
+				<label for="e-mail">E-mail:</label>
+				<input type="e-mail" id="email" name="e-mail" placeholder="info@voorbeeld.com"/>
+				<span class="melding" id="meldingEmail"></span>
+				<br />
+				<br />
+				<label for="groepsnaam">Naam theatergroep:</label>
+				<input type="text" id="groepsnaam" name="groepsnaam" placeholder="Naam theatergroep">
+				<span class="melding" id="meldingGroepsnaam"></span>
+				<br />
+				<label for="groepsgrootte">Aantal leden:</Label>
+				<input type="text" id="leden" name="groepsgrootte" placeholder="Aantal leden">
+				<span class="melding" id="meldingLeden"></span>
+				<br />
+				<label for="periode">Periode van huren:</label>
+				<input type="date" name="periode" id="periode1"> -
+				<input type="date" id="periode" name="periode">
+				<span class="melding" id="meldingPeriode"></span>
+				<br />
+				<br />
+				<label for="vragen">Vragen?</label>
+				<br />
+				<textarea name="vragen"></textarea>
+				<br />
+				<label for="opmerkingen">Opmerkingen:</label>
+				<br />
+				<textarea name="opmerkingen"></textarea>
+				<br />
+				<br />
+				<input type="submit" name="sent" id="sent" value="Versturen" target="_self" >
+			</fieldset>
+			<br />
+			<br />
+	</form>
+</section>
+</body>
+</html>

@@ -1,0 +1,243 @@
+@font-face{
+    font-family: 'futuraMdBt';
+    src: url('futura_medium_bt-webfont.woff');
+} 
+
+@font-face{
+    font-family: 'futuraLight';
+    src: url('futura_light_bt-webfont.woff');
+}
+
+body {
+	background-color: white;
+	font-family: futuraMdBt, sans-serif;
+    margin: 0 50px;
+}
+
+#home, #Shows, .Zakelijk{
+    display: block;
+    margin: 0px;
+    padding: 0;
+    width: 900px;
+   /* border: solid 1px black;*/
+    float: left;
+}
+
+#Agenda{
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 20px 0;
+    width: 900px;
+    /*border: solid 1px black;*/
+}
+.fotoboek{ 
+    display: inline-block;
+    width: 500px;
+   /* border: solid 1px black;*/
+    text-align: left;
+    margin: 0px;
+}
+
+.buiten{
+    display: inline-block;
+    width: 500px;
+    /*border: solid 1px black;*/
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    word-spacing: 100px;
+    padding: 0px;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    font-size: 1.2em;
+    
+ }
+ 
+nav ul li {
+    display: inline-block; 
+    padding: 0 5px;
+    vertical-align: 40px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+ 
+nav ul li a.active, a:visited, a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #990033;
+}
+
+nav .zoek{
+    display: block;
+    text-align: right;
+}
+
+h1{
+    display: block;
+    width: 900px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #990033;
+}
+
+h3{
+    text-align: center;
+}
+
+h3:first-letter{
+    color: #990033; 
+}
+
+h3.titelafwijkend{
+    margin-left: 0;
+    text-align: center;
+}
+
+/*p{
+    width: 800px;
+}*/
+
+button{
+    background-color: white;
+    border: 2px solid #990033;
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+    margin-left: 400px;
+}
+
+/* Month header */
+.month { 
+    padding: 30px 25px;
+    width: 94.5%;
+    background: #990033;
+    text-align: center;
+}
+
+/* Mmaand */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* volgende, bolletjes ernaast niet te verklaren zijn */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* weekdagen (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+    width: 900px;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.8%;
+    color: #666;
+    text-align: center;
+}
+
+/* dagen (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+    width: 900px;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #990033;
+    color: white; 
+} 
+
+footer ul {
+    list-style-type: none;
+    margin: 50px;
+    float: left;
+
+}
+footer{
+    display: inline-block;
+    border-top: 3px solid #990033;
+    width: 100%;
+    margin: 0;
+
+} 
+footer a:link{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #990033;
+    width: 100%;
+}
+.icoon{
+    float: left;
+}
+.fotoboek{
+    display: inline-block;
+    border: 2px solid #990033;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.fotoboek img{
+    float: left;
+    margin-bottom: 20px;
+}
+#foto1, #foto3{
+    margin-right: 20px;
+}
+.fotoboek p{
+    float: right;
+    display: inline-block;
+    margin-right: 40px;
+    font-family: futuraLight; 
+}
+p {
+    font-family: futuraLight;
+}
+
+
